@@ -19,6 +19,7 @@ type apiConfig struct {
 	DB *database.Queries
 }
 
+// adding dummy commit for testing purposes.
 func main() {
 	godotenv.Load()
 	portString := os.Getenv("PORT")
